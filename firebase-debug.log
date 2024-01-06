@@ -1,0 +1,21 @@
+[debug] [2024-01-06T17:32:22.257Z] ----------------------------------------------------------------------
+[debug] [2024-01-06T17:32:22.258Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\livio\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-06T17:32:22.258Z] CLI Version:   13.0.2
+[debug] [2024-01-06T17:32:22.259Z] Platform:      win32
+[debug] [2024-01-06T17:32:22.259Z] Node Version:  v20.5.1
+[debug] [2024-01-06T17:32:22.259Z] Time:          Sat Jan 06 2024 23:02:22 GMT+0530 (India Standard Time)
+[debug] [2024-01-06T17:32:22.259Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-06T17:32:22.263Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-06T17:32:22.263Z] > authorizing via signed-in user (liviofranm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\livio\Desktop\Github\react-fb
+
