@@ -51,10 +51,8 @@ function App() {
 
   useEffect(() => {
     getMovieList();
-    // return () => {
-    //   second
-    // }
-  }, []);
+  }, [movieList]);
+
   const addMovieToDB = async () => {
     try {
       await addDoc(movieCollectionRef, {
