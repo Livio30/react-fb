@@ -49,10 +49,6 @@ function App() {
     alert("Movie Updated");
   };
 
-  useEffect(() => {
-    getMovieList();
-  }, [getMovieList]);
-
   const addMovieToDB = async () => {
     try {
       await addDoc(movieCollectionRef, {
@@ -74,6 +70,7 @@ function App() {
     try {
       await uploadBytes(filesFolderRef, fileUpload);
       alert("File Uploaded Successfully");
+      getMovieList();
     } catch (error) {
       console.error(error);
     }
